@@ -1,7 +1,7 @@
 #!/bin/bash
 
 clear
-BASE_URL="https://raw.githubusercontent.com/gustavostuff/replayos-skins/refs/heads/main/skins"
+BASE_URL="https://raw.githubusercontent.com/kmariano-hes/replayos-skins/refs/heads/main/skins"
 
 # Check if folder name is provided
 if [ "$#" -ne 1 ]; then
