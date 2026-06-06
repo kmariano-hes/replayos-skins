@@ -14,9 +14,9 @@ FOLDER_NAME=$1
 DEST_DIR="/opt/replay/images"
 
 # Slot number
-read -p "Please enter slot number (1-7): " SLOT_NUMBER
-if ! [[ "$SLOT_NUMBER" =~ ^[1-7]$ ]]; then
-    echo "Error: Slot number must be between 1 and 7."
+read -p "Please enter slot number (11-36): " SLOT_NUMBER
+if ! [[ "$SLOT_NUMBER" =~ ^[11-36]$ ]]; then
+    echo "Error: Slot number must be between 11 and 36."
     exit 1
 fi
 
