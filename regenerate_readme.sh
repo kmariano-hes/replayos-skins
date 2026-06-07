@@ -2,8 +2,8 @@
 
 OUTPUT_FILE="README.md"
 SKINS_DIR="skins"
-SCRIPT_URL="https://raw.githubusercontent.com/gustavostuff/replayos-skins/refs/heads/main/install_skin.sh"
-RAW_IMAGE_BASE="https://github.com/gustavostuff/replayos-skins/blob/main/skins"
+SCRIPT_URL="https://raw.githubusercontent.com/kmariano-hes/replayos-skins/refs/heads/main/install_skin.sh"
+RAW_IMAGE_BASE="https://github.com/kmariano-hes/replayos-skins/blob/main/skins"
 
 # Start fresh README content
 cat > "$OUTPUT_FILE" <<EOF
